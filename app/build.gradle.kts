@@ -6,15 +6,14 @@ plugins {
 
 android {
     namespace = "com.mikealexx.tvsrael"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.mikealexx.tvsrael"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 2021
-        versionName = "2.0.21 - alpha"
-
+        versionName = "2.1.0 - alpha"
     }
 
     buildTypes {
@@ -24,8 +23,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
 }
 
@@ -37,4 +36,5 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22")
     implementation("androidx.constraintlayout:constraintlayout:2.1.4")
     implementation("com.squareup.okhttp3:okhttp:4.9.3");
+    implementation("androidx.leanback:leanback:1.2.0");
 }

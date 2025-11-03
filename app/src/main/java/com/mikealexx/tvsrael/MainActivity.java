@@ -8,7 +8,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.android.exoplayer2.SimpleExoPlayer;
 
 public class MainActivity extends AppCompatActivity {
